@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#FFFAB8">
+
+    <TextView
+        android:id="@+id/tvSplashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ComicNest"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/starsicon"
+        android:layout_toStartOf="@id/tvSplashScreen"
+        android:layout_marginEnd="8dp"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
